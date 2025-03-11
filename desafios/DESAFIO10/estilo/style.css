@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: android;
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+body{
+    background-color:var(--cor0);
+    font-family: var(--font-padrao);
+}
+:root{
+    --cor0:#c5ebd6 ;
+    --cor1:#30CA22;
+    --cor2:#3EA035;
+    --cor3:#15F501;
+    --cor4:#40753B;
+    --cor5:#23661c;
+    --font-padrao:arial,verdana,helvetica,sans-serif;
+    --destaques:"Bebas Neue", 'cursive';
+    --android:'android','cursive';
+}
+header{
+    background-image: linear-gradient(to bottom, green,rgb(7, 60, 7));
+    text-align: center;
+    padding: 30px;
+}
+
+header>h1{
+    color: white;
+    font-family: var(--destaques);
+    padding-bottom: 15px;
+    font-weight: normal;
+}
+
+main h1{
+    color: var(--cor5);
+    font-family: var(--android);  
+    
+}
+header > p{
+    font-family: sans-serif;
+    color: white;
+    margin: -9px;
+    padding-bottom: 3px;
+}  
+*{
+  margin:0px ; 
+  padding: 0px; 
+}
+main strong{
+    color: rgb(8, 72, 6);
+    font-weight: bold;
+    padding: 1px 3px;
+
+}
+nav a:hover{
+    background-color: #1a6612bd;
+    border-radius: 50px;
+    height: 0px;
+}
+main h2{
+    font-family: var(--android);
+    color: #0f210e;
+    font-size: 1.3em;
+    background-image: linear-gradient( to right,rgb(104, 204, 104),transparent);
+   font-weight: normal;
+ 
+}
+main{
+    background-color: white;
+    min-width:300px ;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 10px 29px 10px rgba(0, 0, 0, 0.692);
+    border-radius: 0px 10px ;
+}
+main img{
+    width:100% ;
+}
+main img.pequena{
+    max-width: 350px;
+    display:block;
+    margin: auto;
+
+}
+
+
+nav{
+    background-color:rgb(7, 60, 7) ;
+    padding-bottom: 7px;
+}
+nav>a{
+    
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    font-family:Verdana,Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+footer{
+    padding: 5px;
+    background-color: #30CA22;
+    color: white;
+    border-radius: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+aside{
+    background-color: #94e58b;
+    border-radius: 10px;
+    
+}
+aside>ul{
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+}
+aside>h3{
+    background-color: #23661c;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+main p{
+   margin: 15px 0px;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 8mm;
+}
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #042c02;
+    background-color: #83e079;
+}
+main a:hover{
+    text-decoration: underline;
+
+}
+main abbr{
+    text-decoration: none;
+}
+main abbr:hover{
+    text-decoration: underline ;
+}
+aside{
+    box-shadow: 2px 3px 4px  black;
+    padding-bottom: 5px;
+    margin: 10px;
+}
+a.externo::after{
+    content: '\00A0\1F517';
+}
+div.video{
+    background-color: #042c02;
+    margin:0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+div.video>iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+
