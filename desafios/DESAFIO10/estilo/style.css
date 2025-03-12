@@ -72,12 +72,14 @@ main h2{
 }
 main{
     background-color: white;
-    min-width:300px ;
     max-width: 1000px;
+    min-width: 100px;
     margin: auto;
+
+   
     padding: 20px;
     box-shadow: 10px 29px 10px rgba(0, 0, 0, 0.692);
-    border-radius: 0px 10px ;
+    border-radius: 0px 0px ;
 }
 main img{
     width:100% ;
